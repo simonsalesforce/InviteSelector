@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+  <apiVersion>60.0</apiVersion>
+  <isExposed>true</isExposed>
+  <targets>
+    <target>lightning__FlowScreen</target>
+  </targets>
+  <targetConfigs>
+    <targetConfig targets="lightning__FlowScreen">
+      <property name="unansweredCount" type="Integer" label="Unanswered Count" />
+      <property name="acceptedCount" type="Integer" label="Accepted Count" />
+      <property name="selectedInviteType" type="String" label="Selected Invite Type" role="outputOnly" />
+    </targetConfig>
+  </targetConfigs>
+</LightningComponentBundle>

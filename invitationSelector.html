@@ -1,0 +1,20 @@
+<template>
+    <div class="selector-container">
+      <div 
+        onclick={handleUnansweredClick}
+        class={unansweredCircleClass}
+      >
+        <div class="count">{unansweredCount}</div>
+        <div class="label">Invites Due</div>
+      </div>
+  
+      <div 
+        onclick={handleAcceptedClick}
+        class={acceptedCircleClass}
+      >
+        <div class="count">{acceptedCount}</div>
+        <div class="label">Accepted</div>
+      </div>
+    </div>
+  </template>
+  
